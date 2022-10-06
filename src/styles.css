@@ -1,0 +1,78 @@
+body {
+  padding: 50px;
+  font-family: "Cormorant Garamond", serif;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 600px;
+  border: 1px solid #e3f6f5;
+  border-radius: 20px;
+}
+
+.container1 {
+  padding-top: 30px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.title {
+  font-size: 60px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.date {
+  font-size: 20px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.temperature {
+  font-size: 40px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.degrees {
+  font-size: 35px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.col-7,
+.col-5 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+}
+
+.precipitation,
+.humidity,
+.wind {
+  font-size: 15px;
+}
+
+button {
+  padding: 5px 8px;
+  font-size: 16px;
+  line-height: 25px;
+  border: 1px solid #ace0f9;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease;
+  color: black;
+  background-color: #fff1eb;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background-color: #ace0f9;
+  border: none;
+}
+
+div {
+  padding: 5px;
+}
