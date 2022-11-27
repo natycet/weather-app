@@ -29,8 +29,8 @@ dateElement.innerHTML = showDate(currentTime);
 
 function showWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
-  celciusTemperature = document.querySelector("#temperature").innerHTML =
-    Math.round(response.data.main.temp);
+  celsiusTemperature = Math.round(response.data.main.temp);
+  document.querySelector("#temperature").innerHTML = celsiusTemperature;
 
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
